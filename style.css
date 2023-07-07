@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-grow: 5px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.new_task {
+    padding: 10px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.add_task {
+    padding: 10px;
+    background: rgb(249, 248, 248);
+    border-radius: 5px;
+}
+
+.add_task:hover {
+    background: rgb(242, 236, 236);
+    cursor: pointer;
+}
+
+.clear_task {
+    padding: 10px;
+    background: rgb(249, 248, 248);
+    border-radius: 5px;
+}
+
+.clear_task:hover {
+    background: rgb(242, 236, 236);
+    cursor: pointer;
+}
+
+.listFilter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.listFilter h3 {
+    margin: 10px 0;
+}
+
+.listFilter ul {
+    margin-left: 10px;
+}
+
+.listFilter ul li {
+    list-style-type: circle;
+    margin: 5px 0;
+}
+
+.filter {
+    padding: 10px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
